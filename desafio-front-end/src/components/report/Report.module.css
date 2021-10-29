@@ -1,0 +1,57 @@
+.title{
+    text-align: center;
+    
+}
+
+.score {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    
+}
+
+.right-score{
+    color: green;
+    padding-right: 5px;
+}
+
+.wrong-score{
+    color: red;
+    padding-right: 5px;
+}
+
+.content ul{
+    list-style: none;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+.content li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+.user-inputs{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+    margin: auto;
+    font-style: italic;
+     
+}
+
+.user-inputs > p{
+    margin-block-start: 0;
+    margin-block-end: 10px;
+}
+
+.info{
+    display: flex;
+    
+}
+
+.actions {
+    width: 100%;
+    text-align: center;
+}
+

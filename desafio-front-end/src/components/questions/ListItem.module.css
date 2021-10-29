@@ -1,0 +1,32 @@
+.list-item {
+  line-height: 2.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  
+}
+
+.question {
+  padding-top: 10px;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.dropdown {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.dropdown select {
+  width: 80px;
+  height: max-content;
+  font-family: inherit;
+}
+
+.dropdown select:focus {
+  width: max-content;
+}
+
+
+
+
+
+
